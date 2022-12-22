@@ -7,4 +7,8 @@ def main(a):
     Returns:
         float: the result
     '''
-    return
+    return round(a,2)
+
+a = float(input())
+
+print(main(a))
